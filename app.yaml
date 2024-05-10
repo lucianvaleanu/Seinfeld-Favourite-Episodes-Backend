@@ -1,0 +1,9 @@
+runtime: nodejs18
+
+env_variables:
+  NODE_ENV: production
+  # Add any other environment variables your application may need
+
+handlers:
+  - url: /.*
+    script: auto
