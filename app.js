@@ -15,6 +15,7 @@ app.use(cors({
     optionsSuccessStatus: 200
   }));
 
+  
 app.use("/episodes", episodesRouter);
 app.use("/reviews", reviewsRouter);
 app.use("/auth", usersRouter);
